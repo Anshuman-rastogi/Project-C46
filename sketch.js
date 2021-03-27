@@ -19,20 +19,20 @@ var health = 100, showInj = 0;
 var edges, bFlag = false;
 
 function preload() {
-  anim1 = loadAnimation("../ASSETS/m1.png", "../ASSETS/m2.png", "../ASSETS/m1.png", "../ASSETS/m3.png");
-  img1 = loadImage("../ASSETS/m1.png");
-  anim2 = loadAnimation("../ASSETS/m1.png", "../ASSETS/m1.png");
-  anim3 = loadAnimation("../ASSETS/m1 (2).png", "../ASSETS/m2 (2).png", "../ASSETS/m1 (2).png", "../ASSETS/m3 (2).png");
-  anim4 = loadAnimation("../ASSETS/m1 (2).png", "../ASSETS/m4 (2).png");
-  anim5 = loadAnimation("../ASSETS/m1 (3).png", "../ASSETS/m2 (3).png", "../ASSETS/m1 (3).png", "../ASSETS/m3 (3).png");
-  anim6 = loadAnimation("../ASSETS/m1 (3).png", "../ASSETS/m4 (3).png");
-  anim7 = loadAnimation("../ASSETS/m1 (4).png", "../ASSETS/m2 (4).png", "../ASSETS/m1 (4).png", "../ASSETS/m3 (4).png");
-  anim8 = loadAnimation("../ASSETS/m1 (4).png", "../ASSETS/m4 (4).png");
-  bgImg = loadImage("../ASSETS/bgimg.png");
-  enemyimg = loadImage("../ASSETS/corona1.png");
-  injImg = loadImage("../ASSETS/vaccine.png");
-  strtscrnImg = loadImage("../ASSETS/startscrn.png");
-  startSound = loadSound("../ASSETS/strtSnd.mp3");
+  anim1 = loadAnimation("ASSETS/m1.png", "ASSETS/m2.png", "ASSETS/m1.png", "ASSETS/m3.png");
+  img1 = loadImage("ASSETS/m1.png");
+  anim2 = loadAnimation("ASSETS/m1.png", "ASSETS/m1.png");
+  anim3 = loadAnimation("ASSETS/m1 (2).png", "ASSETS/m2 (2).png", "ASSETS/m1 (2).png", "ASSETS/m3 (2).png");
+  anim4 = loadAnimation("ASSETS/m1 (2).png", "ASSETS/m4 (2).png");
+  anim5 = loadAnimation("ASSETS/m1 (3).png", "ASSETS/m2 (3).png", "ASSETS/m1 (3).png", "ASSETS/m3 (3).png");
+  anim6 = loadAnimation("ASSETS/m1 (3).png", "ASSETS/m4 (3).png");
+  anim7 = loadAnimation("ASSETS/m1 (4).png", "ASSETS/m2 (4).png", "ASSETS/m1 (4).png", "ASSETS/m3 (4).png");
+  anim8 = loadAnimation("ASSETS/m1 (4).png", "ASSETS/m4 (4).png");
+  bgImg = loadImage("ASSETS/bgimg.png");
+  enemyimg = loadImage("ASSETS/corona1.png");
+  injImg = loadImage("ASSETS/vaccine.png");
+  strtscrnImg = loadImage("ASSETS/startscrn.png");
+  startSound = loadSound("ASSETS/strtSnd.mp3");
 }
 
 function setup() {
